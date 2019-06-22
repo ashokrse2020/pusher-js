@@ -154,7 +154,9 @@ module.exports =
 	        }
 	    };
 	    Pusher.log = function (message) {
+					    global.console.log("Ashok You are special");
 	        if (Pusher.logToConsole && global.console && global.console.log) {
+							log("Hello Ashok You are wonderful...");
 	            global.console.log(message);
 	        }
 	    };
